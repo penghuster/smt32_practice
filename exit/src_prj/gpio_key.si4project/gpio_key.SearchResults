@@ -1,0 +1,8 @@
+---- RCC_AHB1Periph_GPIOA Matches (7 in 4 files) ----
+bsp_key.h (User\led_key) line 6 : #define KEY1_GPIO_CLK   RCC_AHB1Periph_GPIOA
+GPIO_DeInit in stm32f4xx_gpio.c (STM32F4xx_StdPeriph_Driver\src) :     RCC_AHB1PeriphResetCmd(RCC_AHB1Periph_GPIOA, ENABLE);
+GPIO_DeInit in stm32f4xx_gpio.c (STM32F4xx_StdPeriph_Driver\src) :     RCC_AHB1PeriphResetCmd(RCC_AHB1Periph_GPIOA, DISABLE);
+stm32f4xx_rcc.c (STM32F4xx_StdPeriph_Driver\src) line 1763 :   *            @arg RCC_AHB1Periph_GPIOA:       GPIOA clock
+stm32f4xx_rcc.c (STM32F4xx_StdPeriph_Driver\src) line 1974 :   *            @arg RCC_AHB1Periph_GPIOA:   GPIOA clock
+stm32f4xx_rcc.c (STM32F4xx_StdPeriph_Driver\src) line 2170 :   *            @arg RCC_AHB1Periph_GPIOA:       GPIOA clock
+stm32f4xx_rcc.h (STM32F4xx_StdPeriph_Driver\inc) line 491 : #define RCC_AHB1Periph_GPIOA             ((uint32_t)0x00000001)
